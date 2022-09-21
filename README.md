@@ -17,10 +17,10 @@ A Node.js command-line application that takes in information about employees on 
 * [Submission](#Submission)
 
 ### Tools
-- Node.js
-- File system module (fs)
-- Inquirer module
-- JavaScript
+- Bootstrap: https://getbootstrap.com/
+- NodeJS: https://nodejs.org/en/
+- Jest: https://www.npmjs.com/package/jest
+- Inquirer: https://www.npmjs.com/package/inquirer
 
 ### Links
 * Fullstack Blog Video Submission Guide: https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
