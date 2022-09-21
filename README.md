@@ -1,16 +1,14 @@
 # Professional README Generator
 
 ## Description
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app that can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
-
-The task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. This package follows the guidelines provided by the Professional README Guide and contains everything that a high-quality, professional README should contain.
+A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Unit tests for each part of code ensure that it passes all tests.
 
 ## Table of Contents
 * [Tools](#tools)
 * [Links](#links)
+* [Mock Up](#Mock-Up)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
-* [Instructions](#Instructions)
 * [Tests](#Tests)
 * [Deliverables](#Deliverables)
 * [Walkthrough Video](#Walkthrough-Video)
@@ -25,54 +23,54 @@ The task is to create a command-line application that dynamically generates a pr
 - JavaScript
 
 ### Links
-* Professional README Guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 * Fullstack Blog Video Submission Guide: https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 
+### Mock Up
+![Team Generator HTML Webpage Screenshot](./assets/images/MockUp.png)
+
 ### User Story
-* AS A developer
-* I WANT a README generator
-* SO THAT I can quickly create a professional README for a new project
+* AS A manager
+* I WANT to generate a webpage that displays my team's basic info
+* SO THAT I have quick access to their emails and GitHub profiles
 
 ### Acceptance Criteria:
 * GIVEN a command-line application that accepts user input
-* WHEN I am prompted for information about my application repository
-* THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-* WHEN I enter my project title
-* THEN this is displayed as the title of the README
-* WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions 
-* THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests 
-* WHEN I choose a license for my application from a list of options
-* THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-* WHEN I enter my GitHub username
-* THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-* WHEN I enter my email address
-* THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-* WHEN I click on the links in the Table of Contents
-* THEN I am taken to the corresponding section of the README
-
-### Instructions
-1. Clone the main project then open up the project folder in your text editor.
-2. Run 'npm install' in terminal to install node_modules with all dependencies.
-3. Make sure you are in the main project folder using the 'cd' command.
-4. Then type in 'node index.js' or 'node index' to execute the application and load up the chain of prompts (questions).
-5. Answer all the prompts and once completed, your personal README.md file will be created.
+* WHEN I am prompted for my team members and their information
+* THEN an HTML file is generated that displays a nicely formatted team roster based on user input
+* WHEN I click on an email address in the HTML
+* THEN my default email program opens and populates the TO field of the email with the address
+* WHEN I click on the GitHub username
+* THEN that GitHub profile opens in a new tab
+* WHEN I start the application
+* THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
+* WHEN I enter the team manager’s name, employee ID, email address, and office number
+* THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
+* WHEN I select the engineer option
+* THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
+* WHEN I select the intern option
+* THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
+* WHEN I decide to finish building my team
+* THEN I exit the application, and the HTML is generated
 
 ### Tests
-* The command line to run a test on this application is: node index.js
+* The command line to run a test on this application is: npm run tests
 
 ### Deliverables: 
-* A sample README generated using the application must be submitted. 
+* A sample HTML file generated using the application must be submitted.
 * Your GitHub repository containing your application code.
 
 ### Walkthrough Video: 
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted and a link to the video should be included in your README file.
+* A walkthrough video that demonstrates the functionality of the Team Profile Generator and passing tests must be submitted, and a link to the video should be included in your README file.
+* The walkthrough video must show all four tests passing from the command line.
 * The walkthrough video must demonstrate how a user would invoke the application from the command line.
 * The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
+* The walkthrough video must demonstrate a generated HTML file that matches the user input.
 
 ### Technical Acceptance Criteria
-* Satisfies all of the above acceptance criteria plus the following:
-- Uses the Inquirer package (https://www.npmjs.com/package/inquirer).
+* Satisfies all of the preceding acceptance criteria plus the following:
+- Uses the Inquirer package (Links to an external site.).
+- Uses the Jest package (Links to an external site.) for a suite of unit tests.
+* The application must have these classes: Employee, Manager, Engineer, and Intern.
 
 ### Repository Quality
 * Repository has a unique name.
@@ -82,7 +80,7 @@ The task is to create a command-line application that dynamically generates a pr
 * Repository contains a high-quality README with description and a link to walkthrough video.
 
 ### Submission
-* Date Submitted: September 28, 2022
-* Walk Through Video demonstrating the functionality of application: https://drive.google.com/file/d/1mRhxAGBrY1EJvSb9mhCyJZrhyBE2mM3i/view
-* Sample README.md file for project repository generated using application: https://github.com/bslockhart/Brians-README-Generator/blob/main/Sample%20README/Sample_README.md
-* The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Brians-README-Generator
+* Date Submitted: October 04, 2022
+* A walkthrough video demonstrating the functionality of the application and passing tests:
+* A sample HTML file generated using your application:
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project:
