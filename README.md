@@ -34,11 +34,11 @@ A Node.js command-line application that takes in information about employees on 
 ![Team Generator Walkthrough Video]()
 
 ## Instructions
-1. Clone the main project then open up the project folder in your text editor.
+1. Clone the main project, then open the cloned file.
 2. Make sure you are in the main project folder using the 'cd' command.
 3. Run Tests: npm run test.
 4. Initiate file: 'node index.js' or 'node index' to execute the application and load up the chain of prompts (questions).
-5. Answer all the prompts and once completed, your personal Team Profile Generator will be created.
+5. Answer all the prompts appropriatly and once completed, your personal Team Profile Generator will be created.
 
 ### User Story
 * AS A manager
