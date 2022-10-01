@@ -1,0 +1,26 @@
+{
+  "name": "CoolEmployees",
+  "version": "1.0.0",
+  "description": "OOP",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "",
+    "url": "git+https://github.com/bslockhart/Brians-Team-Profile-Generator"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/bslockhart/Brians-Team-Profile-Generator",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
