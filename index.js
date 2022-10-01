@@ -1,4 +1,3 @@
-//* Initial Information for project
 const Manager = require("./lib/Manager.js");
 const Engineer = require("./lib/Engineer.js");
 const Intern = require("./lib/Intern.js");
@@ -9,7 +8,8 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 const generateTeam = require("./src/template.js")
 
-//* Switch function for roles
+teamArray = [];
+
 function runApp() {
 
     function createTeam() {
@@ -68,7 +68,9 @@ function runApp() {
             teamArray.push(manager);
             createTeam();
         });
+
     }
+
 
     function addEngineer() {
         inquirer.prompt([
@@ -102,6 +104,7 @@ function runApp() {
             teamArray.push(engineer);
             createTeam();
         });
+
     }
 
     function addIntern() {
@@ -136,15 +139,18 @@ function runApp() {
             teamArray.push(intern);
             createTeam();
         });
+
     }
 
     function htmlBuilder() {
         console.log("Team created!")
 
         fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+
     }
 
     createTeam();
+
 }
 
 runApp(); 
