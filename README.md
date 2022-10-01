@@ -30,10 +30,12 @@ A Node.js command-line application that takes in information about employees on 
 ![Team Generator HTML Webpage Screenshot](./assets/images/MockUp.png)
 
 ## Instructions
-1. Run Tests: npm run test
-2. Initiate file: node index.html or node index
-3. Answer questions when prompted
-
+1. Clone the main project then open up the project folder in your text editor.
+2. Run 'npm install' in terminal to install node_modules with all dependencies.
+3. Make sure you are in the main project folder using the 'cd' command.
+4. Run Tests: npm run test.
+4. Initiate file: 'node index.js' or 'node index' to execute the application and load up the chain of prompts (questions).
+5. Answer all the prompts and once completed, your personal Team Profile Generator will be created.
 ### User Story
 * AS A manager
 * I WANT to generate a webpage that displays my team's basic info
