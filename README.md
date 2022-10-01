@@ -32,6 +32,7 @@ A Node.js command-line application that takes in information about employees on 
 
 ## Walkthrough Video
 ![Brians Team Generator Walkthrough Video](./assets/images/Walkthrough.gif)
+![Walk Through Video Link](https://drive.google.com/file/d/1i7XAlbvhQG8jmAHGDcINed9FzuS_CHJq/view)
 
 ## Instructions
 1. Clone the main project, then open the cloned file.
