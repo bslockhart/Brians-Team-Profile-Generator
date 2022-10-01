@@ -68,7 +68,6 @@ function runApp() {
             teamArray.push(manager);
             createTeam();
         });
-
     }
 
     function addEngineer() {
@@ -103,7 +102,6 @@ function runApp() {
             teamArray.push(engineer);
             createTeam();
         });
-
     }
 
     function addIntern() {
@@ -138,5 +136,15 @@ function runApp() {
             teamArray.push(intern);
             createTeam();
         });
-
     }
+
+    function htmlBuilder() {
+        console.log("Team created!")
+
+        fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+    }
+
+    createTeam();
+}
+
+runApp(); 
