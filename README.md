@@ -7,6 +7,7 @@ A Node.js command-line application that takes in information about employees on 
 * [Tools](#tools)
 * [Links](#links)
 * [Mock Up](#Mock-Up)
+* [Instructions](#Instructions)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
 * [Tests](#Tests)
@@ -27,6 +28,11 @@ A Node.js command-line application that takes in information about employees on 
 
 ### Mock Up
 ![Team Generator HTML Webpage Screenshot](./assets/images/MockUp.png)
+
+## Instructions
+1. Run Tests: npm run test
+2. Initiate file: node index.html or node index
+3. Answer questions when prompted
 
 ### User Story
 * AS A manager
