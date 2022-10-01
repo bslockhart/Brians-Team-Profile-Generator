@@ -31,7 +31,7 @@ A Node.js command-line application that takes in information about employees on 
 ![Team Generator HTML Webpage Screenshot](./assets/images/MockUp.png)
 
 ## Walkthrough Video
-![Team Generator Walkthrough Video]()
+![Team Generator Walkthrough Video](https://drive.google.com/file/d/1i7XAlbvhQG8jmAHGDcINed9FzuS_CHJq/view)
 
 ## Instructions
 1. Clone the main project, then open the cloned file.
