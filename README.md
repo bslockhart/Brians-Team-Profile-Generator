@@ -8,6 +8,7 @@ A Node.js command-line application that takes in information about employees on 
 * [Links](#links)
 * [Mock Up](#Mock-Up)
 * [Walk Through Video](#Walkthrough-Video)
+* [Video Link](#Video-Link)
 * [Instructions](#Instructions)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
@@ -32,7 +33,9 @@ A Node.js command-line application that takes in information about employees on 
 
 ## Walkthrough Video
 ![Brians Team Generator Walkthrough Video](./assets/images/Walkthrough.gif)
-[Brians Team Generator Walkthrough Link](https://drive.google.com/file/d/1i7XAlbvhQG8jmAHGDcINed9FzuS_CHJq/view?usp=sharing)
+
+# Video Link
+![Brians Team Generator Walkthrough Link](https://drive.google.com/file/d/1i7XAlbvhQG8jmAHGDcINed9FzuS_CHJq/view?usp=sharing)
 
 ## Instructions
 1. Clone the main project, then open the cloned file.
@@ -66,13 +69,13 @@ A Node.js command-line application that takes in information about employees on 
 * THEN I exit the application, and the HTML is generated
 
 ### Tests
-* The command line to run a test on this application is: npm run tests
+* The command line to run a test on this application is: npm run test
 
 ### Deliverables: 
 * A sample HTML file generated using the application must be submitted.
 * Your GitHub repository containing your application code.
 
-### Walkthrough Video: 
+### Walkthrough Video Guidelines: 
 * A walkthrough video that demonstrates the functionality of the Team Profile Generator and passing tests must be submitted, and a link to the video should be included in your README file.
 * The walkthrough video must show all four tests passing from the command line.
 * The walkthrough video must demonstrate how a user would invoke the application from the command line.
