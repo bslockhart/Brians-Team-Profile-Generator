@@ -95,5 +95,5 @@ A Node.js command-line application that takes in information about employees on 
 ### Submission
 * Date Submitted: October 04, 2022
 * A walkthrough video demonstrating the functionality of the application and passing tests: https://drive.google.com/file/d/1i7XAlbvhQG8jmAHGDcINed9FzuS_CHJq/view
-* A sample HTML file generated using your application: file:///Users/brianlockhart/Documents/UNCG%20Bootcamp/Classes/Current%20Modules/Module%2010%20%7C%20Object-Oriented%20Programming/Module%2010%20%7C%20Challenge%20%7C%20Team%20Profile%20Generator/2.%20Brians%20Team%20Profile%20Generator%20%7C%20Completed/output/team.html
+* A sample HTML file generated using your application: https://github.com/bslockhart/Brians-Team-Profile-Generator/blob/main/output/team.html
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project: https://github.com/bslockhart/Brians-Team-Profile-Generator
